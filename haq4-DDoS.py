@@ -19,12 +19,12 @@ logo = """
        __/     __/  __/     __/     __/ __/                     __/
                                           __/
 ╔═════════════════════════════════════════════════════════════╗
-║\033[32m                THIS SCRIPT IS A DEDICATION                 \033[31m║
-║\033[33m           TO THE STABILIZATION OF THE MARTYRS              \033[31m║       
-║\033[34m                     design by: KunF24                      \033[31m║      
-║\033[35m                         ——oO0Oo——                          \033[31m║    
+║\033[32m                THIS SCRIPT IS A DEDICATION                  \033[31m║
+║\033[33m           TO THE STABILIZATION OF THE MARTYRS               \033[31m║       
+║\033[34m                     design by: KunF24                       \033[31m║      
+║\033[35m                         ——oO0Oo——                           \033[31m║    
 ╚═════════════════════════════════════════════════════════════╝
-        """
+"""
 faded_text = fade.fire(logo)
 print(faded_text)
 # Parse inputs
