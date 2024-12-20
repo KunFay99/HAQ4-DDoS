@@ -69,10 +69,6 @@ def print_status():
     thread_num += 1
     #print the output on the sameline
     sys.stdout.write(f"\r {time.ctime().split( )[3]} [{str(thread_num)}] ")
-    time.sleep(1)
-    sys.stdout.write(f"\033[1m" +str()+ "\033[32m[HAQ4-DDoS]  \033[33m[Flooding HTTP]  \033[34m" +ip+ "  \033[0m")
-    time.sleep(1)
-    sys.stdout.write(f"\033[96m" +str()+ "\033[93m[HAQ4-DDoS]  \033[95m[Flooding HTTP]  \033[34m" +ip+ "  \033[0m")
     sys.stdout.flush()
     thread_num_mutex.release()
 
