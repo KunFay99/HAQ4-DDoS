@@ -18,12 +18,12 @@ logo = """
       __/     __/  __/ __/ __/  __/  __/ __/  __/ __/          __/
      __/     __/  __/     __/     __/ __/                     __/
                                           __/
-╔═════════════════════════════════════════════════════════════╗
-║\033[32m                THIS SCRIPT IS A DEDICATION                  \033[31m║
-║\033[33m           TO THE STABILIZATION OF THE MARTYRS               \033[31m║       
-║\033[34m                     design by: KunF24                       \033[31m║      
-║\033[35m                         ——oO0Oo——                           \033[31m║    
-╚═════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════╗
+║\033[32m                        THIS SCRIPT IS A DEDICATION                      \033[31m║
+║\033[33m                   TO THE STABILIZATION OF THE MARTYRS                   \033[31m║       
+║\033[34m                             design by: KunF24                           \033[31m║      
+║\033[35m                                 ——oO0Oo——                               \033[31m║    
+╚═══════════════════════════════════════════════════════════════════════╝
 """
 faded_text = fade.fire(logo)
 print(faded_text)
@@ -68,10 +68,10 @@ def print_status():
     #print the output on the sameline
     sys.stdout.write(f"\r\033[33m{time.ctime().split( )[3]} [{str(thread_num)}] ")
     sys.stdout.flush()
-    print (f"\033[95m=⟩⟩ \033[92m[H\033[33mA\033[32mQ\033[33m-4] \033[32mREQUEST_NUM \033[92m" +str(ip)+ "\033[0m")
+    print (f"\033[95m══>> \033[92m[H\033[33mA\033[32mQ\033[33m-4] \033[32mREQUEST_NUM \033[92m" +str(ip)+ "\033[0m")
     sys.stdout.write(f"\r\033[95m{time.ctime().split( )[3]}\033[94m [{str(thread_num)}] ")
     sys.stdout.flush()
-    print (f"\033[37m=⟩⟩ \033[1m[HAQ-4] \033[36mREQUEST_NUM \033[35m" +str(ip)+ "\033[0m")
+    print (f"\033[37m══>> \033[1m[HAQ-4] \033[36mREQUEST_NUM \033[35m" +str(ip)+ "\033[0m")
     thread_num_mutex.release()
 
 
