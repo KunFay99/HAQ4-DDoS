@@ -70,7 +70,7 @@ def print_status():
     print (f"\033[95m══>> \033[92m[H\033[33mA\033[32mQ\033[33m-4] \033[32mREQUEST_NUM \033[92m" +str(ip)+ "\033[0m")
     sys.stdout.write(f"\r\033[95m{time.ctime().split( )[3]}\033[94m [{str(thread_num)}] ")
     sys.stdout.flush()
-    print (f"\033[37m══>> \033[1m[H\033[33mA\033[1mQ\033[33m-4] \033[36mREQUEST_NUM \033[35m" +str(ip)+ "\033[0m")
+    print (f"\033[37m══>> \033[35m[H\033[33mA\033[35mQ\033[33m-4] \033[36mREQUEST_NUM \033[35m" +str(ip)+ "\033[0m")
     thread_num_mutex.release()
 
 
