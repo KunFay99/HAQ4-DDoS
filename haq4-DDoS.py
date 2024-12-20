@@ -10,16 +10,13 @@ import time
 import fade
 
 os.system("clear")
-logo = """
-     ▓▒░    ▓▒░        ▓▒░           ▓▒▓▒░                   ▓▒░
-     ▓▒░    ▓▒░      ▓▒░▓▒░       ▓▒░    ▓▒░               ▓▒░
-     ▓▒░    ▓▒░     ▓▒░  ▓▒░     ▓▒░      ▓▒░             ▓▒░  ▓▒░
-     ▓▒ ▓▒▓▒▓▒░    ▓▒ ▓▒▓▒▓▒░   ▓▒░      ▓▒░ ▓▒▓▒▓▒░  ▓▒▓▒▓▒▓▒░
-     ▓▒░    ▓▒░  ▓▒░      ▓▒░       ▓▒░▓▒ ▓▒░              ▒░▒░ ▓▒░
-     ▓▒░    ▓▒░ ▓▒░        ▓▒░       ▓▒▓▒░                   ▒░ ▓▒░
-      ▒░     ▒░   ▒░          ▒░     ▒░   ▓▒░                   ▒░ ▒░
-       ░      ░    ░          ░        ░ ░   ▒░                 ▒░ ░
-        ░    ░       ░       ░          ▒ ░ ░                  ░ ░
+logo = """         
+
+
+
+
+
+
 ╔═════════════════════════════════════════════════════════════╗
 ║\033[32m                THIS SCRIPT IS A DEDICATION                     ║
 ║\033[33m           TO THE STABILIZATION OF THE MARTYRS                  ║
@@ -70,7 +67,8 @@ def print_status():
     #print the output on the sameline
     sys.stdout.write(f"\r {time.ctime().split( )[3]} [{str(thread_num)}] ")
     sys.stdout.flush()
-    print (f"\033[33m==⟩⟩ \033[96mHAQ4-DDoS  \033[93mFLOODING HTTP \033[35m" +str(ip)+ " \033[37mFREE FALESTINE\033[0m")
+    print (f"\033[33m==⟩⟩ \033[96mHAQ4-DDoS  \033[93mFLOODING HTTP \033[35m::..\033[94m" +str(ip)+ "\033[0m")
+    print (f"\033[95m==⟩⟩ \033[92mHAQ4-DDoS  \033[97mFLOODING HTTP \033[31m:::...\033[92m" +str(ip)+ "\033[0m")
     thread_num_mutex.release()
 
 
