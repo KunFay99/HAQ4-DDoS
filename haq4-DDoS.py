@@ -68,6 +68,7 @@ def print_status():
     sys.stdout.write(f"\r {time.ctime().split( )[3]} [{str(thread_num)}] ")
     sys.stdout.flush()
     print (f"\033[33m=⟩ \033[96mHAQ4-DDoS \033[93mFLOODING HTTP \033[35m::..\033[94m" +str(ip)+ "\033[0m")
+    sys.stdout.flush()
     print (f"\033[95m=⟩⟩ \033[92mHAQ4-DDoS \033[97mFLOODING HTTP \033[31m::...\033[92m" +str(ip)+ "\033[0m")
     thread_num_mutex.release()
 
