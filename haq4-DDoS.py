@@ -65,9 +65,9 @@ def print_status():
 
     thread_num += 1
     #print the output on the sameline
-    sys.stdout.write(f"\r {time.ctime().split( )[3]} [{str(thread_num)}] ")
+    sys.stdout.write(f"\r\033[33m{time.ctime().split( )[3]} [{str(thread_num)}] ")
     sys.stdout.flush()
-    print (f"\033[95m=⟩⟩ \033[92mH\033[33mA\033[32mQ\033[95m4-DDoS \033[97mFLOODING HTTP \033[92m" +str(ip)+ "\033[0m")
+    print (f"\033[95m=⟩⟩ \033[92mH\033[33mA\033[32mQ\033[33m4-DDoS \033[97mFLOODING HTTP \033[92m" +str(ip)+ "\033[0m")
     thread_num_mutex.release()
 
 
